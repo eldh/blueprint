@@ -1,0 +1,57 @@
+body{
+	background-color: #3364c3;
+	font-family: "Avenir LT Std",sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background-size: 100%;
+	background-attachment: fixed;
+	@include linear-gradient(rgb(67,117,233), rgb(45,84,157));
+}
+html {line-height: 0;}
+div {
+		box-sizing: border-box;
+}
+.nav--block a{
+	@include vendor(transform, scale(1));
+	-webkit-transition: all 0.1s linear;
+	&:hover{
+		@include vendor(transform, scale(1.2));
+	}
+}
+
+.breadcrumb a{
+	&:hover{
+		text-decoration: underline;
+	}
+}
+.greybox {
+	font-family: "Avenir LT Std",sans-serif;
+	background-color: transparent;
+	border-width: 1px;
+	@include vendor(border-image, url(../img/border.png) 1 1 round);
+	a {
+		color: #fff;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+}
+.btn {
+	border-width: 1px;
+	@include vendor(border-image, url(../img/border.png) 1 1 round);
+	padding: 0 ($base-line-height) +px;
+	line-height: 3;
+	text-transform: uppercase;
+	&:hover {
+		background-image:url(../img/linesbg.png);
+		background-repeat: repeat;
+	}
+}
+
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.striped{
+	background-image:url(../img/linesbg.png);
+	background-repeat: repeat;
+}
