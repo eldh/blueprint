@@ -3,94 +3,174 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title></title>
-		<meta name="description" content="Poo">
-		<meta name="viewport" content="width=device-width">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="description" content="Poo">
+	<meta name="viewport" content="width=device-width">
 
-		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-		<link rel="stylesheet" href="css/wireframe.css">
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-		<script src="js/cssrefresh.js"></script>
-	</head>
-	<body>
+	<link rel="stylesheet" href="css/blueprint.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="js/cssrefresh.js"></script>
+</head>
+<body>
 		<!--[if lt IE 7]>
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-		<![endif]-->
-		<div class="island  greybox  greybox--medium striped header"><h1>Header</h1></div>
-			<div class=wrapper>
-			
-				<ul class="nav  nav--fit  nav--block  greybox">
-					<li><a href=#>Home</a></li>
-					<li><a href=#>About</a></li>
-					<li><a href=#>Portfolio</a></li>
-					<li><a href=#>Contact</a></li>
-				</ul>
-			
-				<div class="island striped greybox greybox--large">Masthead</div>
-			
-				<div class=gw>
-						<div class="g one-whole">
-							<div class="island greybox">
-								<ol class="nav  breadcrumb">
-									<li><a href="#">Home</a></li>
-									<li><a href="#">About</a></li>
-									<li><a href="#">The Board</a></li>
-									<li class="current"><a href="#">Directors</a></li>
-								</ol>
-							</div>
-						</div>
-				
-					<div class="g  two-thirds  content">
-						<div class="island  greybox  greybox--gigantic">
+			<![endif]-->
+		<header class="island  greybox  greybox--medium striped header"><h1>Header</h1></header>
+		<div class="grid-wrapper wrapper">
+			<ul class="nav nav--fit nav--block sticky border center">
+				<li><a href=#>Home</a></li>
+				<li><a href=#>About</a></li>
+				<li><a href=#>Portfolio</a></li>
+				<li><a href=#>Contact</a></li>
+			</ul>
 
-								<div class="btn">
-									Click me!
-								</div>
-								<div class="btn btn-primary">
-									Submit me!
-								</div>
-							Content
-						</div>
-					</div><!-- /content -->
-				
-					<div class="g  one-third  sub-content">
-						<div class="island  greybox">
-						
-							<div class=gw>
-								<div class="g  one-half">
-									<div class="islet  greybox">Ad</div>
-								</div>
-								<div class="g  one-half">
-									<div class="islet  greybox">Ad</div>
-								</div>
-							</div>
-						
-							<div class="island  greybox  greybox--huge">
-								Sub content
-							</div>
-						
-						
-							<div class="islet  greybox">Ad</div>
-						
-						</div>
-					</div><!-- /sub-content -->
-				
+			<div class="island striped greybox greybox--large">Masthead</div>
+
+			<div class="grid one-whole">
+				<div class="island">
+					<ol class="nav breadcrumb">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">The Board</a></li>
+						<li class="current">Directors</li>
+					</ol>
 				</div>
-			
-			</div><!-- /wrapper -->
-		<div class="greybox striped greybox--medium footer">Footer</div>​<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-		<script src="js/plugins.js"></script>
-		<script src="js/main.js"></script>
-		<script>
-			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-			s.parentNode.insertBefore(g,s)}(document,'script'));
-		</script>
-	</body>
+			</div>
+
+			<div class="grid  two-thirds  content">
+				<div class="island">
+					<table class="table">
+						<tr>
+							<th>1</th>
+							<th>2</th>
+							<th>3</th>
+							<th>4</th>
+						</tr>
+						<tr>
+							<td>One</td>
+							<td>Two</td>
+							<td>Three</td>
+							<td>FourFive</td>
+						</tr>
+						<tr>
+							<td>Un</td>
+							<td>Deux</td>
+							<td>Troix</td>
+							<td>Quatre</td>
+						</tr>
+						<tr>
+							<td>Yksi</td>
+							<td>Kaksi</td>
+							<td>Kolme</td>
+							<td>Neljä</td>
+						</tr>
+					</table>
+					<div class="btn">
+						Click me!
+					</div>
+					<div class="btn btn-primary">
+						Submit me!
+					</div>
+					Content
+				</div>
+			</div><!-- /content -->
+			<div class="grid one-third  sub-content">
+				<div class="island">
+
+					<div class=gw>
+						<div class="grid  one-half">
+							<div class="islet  greybox">Ad</div>
+						</div>
+						<div class="grid  one-half">
+							<div class="islet  greybox">Ad</div>
+						</div>
+					</div>
+					<div class="flyout border">
+						This thing has a flyout menu.
+						<div class="flyout__content border">
+							<p>And this is the flyout content</p>
+						</div>
+					</div>​
+					<div class="island">
+						<h2>Heading!</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+
+					<div class="islet placekitten">Kitteh!</div>
+					<div class="islet  greybox">Ad</div>
+
+				</div>
+			</div><!-- /sub-content -->
+		<div class="grid-wrapper island one-whole">
+			<div class="grid one-third">
+				<div class="placekitten"></div>
+				<h2>Heading!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="grid one-third">
+				<div class="placekitten"></div>
+				<h2>Heading!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="g one-third">
+				<div class="placekitten"></div>
+				<h2>Heading!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="grid-wrapper one-whole">
+			<ol class="nav pagination">
+				<li class=pagination__first><a href=#>First</a></li>
+				<li class=pagination__prev><a href=#>Previous</a></li>
+				<li><a href=#>1</a></li>
+				<li><a href=#>2</a></li>
+				<li class=current>3</li>
+				<li><a href=#>4</a></li>
+				<li><a href=#>5</a></li>
+				<li class=pagination__next><a href=#>Next</a></li>
+				<li class=pagination__last><a href=#>Last</a></li>
+			</ol>​
+		</div>
+		<div class="fullscreen-box greybox island greybox--large">
+			This is as wide and high as the screen.
+		</div>
+	</div><!-- /wrapper -->
+	<footer class="greybox striped greybox--medium footer">Footer</footer>​
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+</body>
 </html>

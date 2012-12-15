@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application PUBLIC
+	"-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN"
+	"http://java.sun.com/dtd/application_1_3.dtd">
+<application>
+  <display-name>mtas-ear</display-name>
+  <description>To simulate mtas behavior for coco.</description>
+  <module>
+    <web>
+      <web-uri>mtas-interface-war-1.3.1.7.war</web-uri>
+      <context-root>/mtasccmp</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>mtas-data-ejb-1.3.1.7.jar</ejb>
+  </module>
+  <module>
+    <ejb>mtas-logic-ejb-1.3.1.7.jar</ejb>
+  </module>
+</application>

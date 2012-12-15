@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <parent>
+        <groupId>com.ericsson.mtas</groupId>
+        <artifactId>mtas</artifactId>
+        <version>1.3</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>mtas-ear</artifactId>
+    <version>${mtas.version}</version>
+    <packaging>ear</packaging>
+    <name>EAR Package</name>
+	<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ear-plugin</artifactId>
+                <configuration>
+                    <modules>
+                        <webModule>
+                            <groupId>com.ericsson.mtas</groupId>
+                            <artifactId>mtas-interface-war</artifactId>
+                            <contextRoot>/mtasccmp</contextRoot>
+                        </webModule>
+                    
+                    </modules>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+	
+    <dependencies>
+	<dependency>
+            <artifactId>mtas-interface-war</artifactId>
+            <groupId>com.ericsson.mtas</groupId>
+            <version>${mtas.version}</version>
+            <type>war</type>
+            <scope>compile</scope>
+        </dependency>
+            <dependency>
+            <artifactId>ccmp-jar</artifactId>
+            <groupId>com.ericsson.mtas</groupId>
+            <version>${mtas.version}</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <artifactId>mtas-data-ejb</artifactId>
+            <groupId>com.ericsson.mtas</groupId>
+            <version>${mtas.version}</version>
+            <type>ejb</type>
+            <scope>compile</scope>
+        </dependency>
+	<dependency>
+            <artifactId>mtas-logic-ejb</artifactId>
+            <groupId>com.ericsson.mtas</groupId>
+            <version>${mtas.version}</version>
+            <type>ejb</type>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+        
+</project>
+
+
+
+
+
+
+
+
+

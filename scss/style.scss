@@ -1,62 +1,127 @@
 /* Reset */
 html {
-	line-height: 0;
+	line-height:0;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /* General styles */
 body{
-	background-color: #3364c3;
-	font-family: "Avenir LT Std",sans-serif;
+	background-color: $brand-color;
+	color: #fff;
+	font-size: 100%;
+	line-height:1.25em;
+	font-family: "Avenir", "Proxima Nova", "Gotham Book","Futura",sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background-size: 100%;
 	background-attachment: fixed;
-	@include linear-gradient(rgb(67,117,233), rgb(45,84,157));
+	@include linear-gradient($brand-color + 15, $brand-color - 15);
 }
-div {
-	box-sizing: border-box;
+
+a, a:visited, a:hover{
+	color:#fff;
 }
 
 /* Specific styling */
-.nav--block a, .breadcrumb a{
-	@include vendor(transform, scale(1));
-	-webkit-transition: all 0.1s linear;
+.nav--block a, .breadcrumb a, .pagination a{
+	font-weight: 900;
+	display: inline-block;
+	@include vendor(transition, all 0.1s linear);
 	&:hover{
-		@include vendor(transform, scale(1.2));
+		background-color: $white;
+		color: $brand-color;
+		text-decoration: none;
 	}
 }
 
 .breadcrumb a{
 	padding: 0 0.5em;
 }
-.greybox {
-	font-family: "Avenir LT Std",sans-serif;
+.greybox { /* Used for placeholder content */
+	font-family: "Avenir", "Proxima Nova", "Gotham Book","Futura",sans-serif;
+	font-size: 1em;
 	background-color: transparent;
+	border: 1px rgba(255,255,255,0.5) solid;
 	border-width: 1px;
 	@include vendor(border-image, url(../img/border.png) 1 1 round);
-	a {
-		color: #fff;
-		text-transform: uppercase;
-		text-decoration: none;
-	}
+	background-image:url(../img/linesbg.png);
+	background-repeat: repeat;
 }
+footer.greybox{
+	border-width: 1px 0 0 0;
+}
+header.greybox{
+	border-width: 0 0 1px 0;
+}
+.flyout,
+.flyout--alt, 
+.flyout__content{
+	background-color: $brand-color;
+	padding: 0.5em;
+}
+
+.fullscreen-box{
+	width: 100%;
+}
+
+.placekitten{
+	background-image: url('http://placekitten.com/200/300');
+	min-height: 200px;
+}
+
 .btn {
-	border-width: 1px;
-	@include vendor(border-image, url(../img/border.png) 1 1 round);
+	border: 2px rgba(255,255,255,0.9) solid;
 	padding: 0 ($base-line-height) +px;
 	line-height: 3;
 	text-transform: uppercase;
+	font-weight: 900;
+	@include vendor(transition, all 0.1s linear);
 	&:hover {
-		background-image:url(../img/linesbg.png);
-		background-repeat: repeat;
+		background-color: $white;
+		color: $brand-color;
 	}
 }
 
-.wrapper {
+table{
+	line-height:1;
 	max-width: 90%;
-	margin: 0 auto;
+	border-collapse: collapse;
+	th{
+		font-weight: bold;
+		background-image:url(../img/linesbg.png);
+		background-repeat: repeat;
+	}
+	td, th{
+		border: 1px rgba(255,255,255,0.2) dotted;
+	}
 }
 
 .striped{
 	background-image:url(../img/linesbg.png);
 	background-repeat: repeat;
+}
+
+.border{
+	border: 1px rgba(255,255,255,0.5) solid;
+	border-width: 1px;
+	@include vendor(border-image, url(../img/border.png) 1 1 round);
+}
+
+.center{
+	text-align: center;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	background-color:	$brand-color + 15;
+	top: 10px;
+	z-index:200;
 }

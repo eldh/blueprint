@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: emaescm
+Build-Jdk: 1.6.0_22
+Extension-Name: mtas-ear
+Specification-Title: To simulate mtas behavior for coco.
+Implementation-Title: mtas-ear
+Implementation-Version: 1.3.1.7
+

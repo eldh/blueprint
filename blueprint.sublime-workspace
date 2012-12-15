@@ -1,0 +1,263 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"lint",
+				"JSLint"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"synta scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntj ",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sy",
+				"Set Syntax: HTML"
+			],
+			[
+				"synht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/anel/Code/github repos/reveal.js/css/theme/README.md",
+		"/Users/anel/Dropbox/Sites/blueprint/js/main.js",
+		"/Users/anel/Dropbox/Sites/blueprint/scss/responsive.scss",
+		"/Users/anel/Dropbox/Sites/blueprint/scss/style.scss",
+		"/Users/anel/Dropbox/Sites/blueprint/index.html",
+		"/Users/anel/Dropbox/Sites/blueprint/scss/inuit.css/generic/_mixins.scss",
+		"/Users/anel/Dropbox/Sites/blueprint/scss/vars.scss",
+		"/Users/anel/Dropbox/Sites/blueprint/scss/blueprint.scss",
+		"/Users/anel/Downloads/inuit.css-master/_vars.scss",
+		"/Users/anel/Dropbox/Sites/blueprint/scss/inuit.css/partials/objects/nav.scss",
+		"/Users/anel/Dropbox/Sites/blueprint/scss/inuit.css/partials/objects/greybox.scss",
+		"/Users/anel/Code/ssp/trunk/pom.xml",
+		"/Users/anel/Dropbox/aebg/presentation notes on prototypes vs wireframes.md",
+		"/Users/anel/Dropbox/aebg/blog about coding prototypes.md",
+		"/Users/anel/Dropbox/aebg/blog about coding prototypes part 2.md",
+		"/Users/anel/Code/ssp/trunk/ssp-service-coh/pom.xml",
+		"/Users/anel/Code/ssp/trunk/ssp/pom.xml",
+		"/Users/anel/.m2/repository/com/ericsson/coh/omp-release/maven-metadata-local.xml",
+		"/Users/anel/Downloads/BCS_COH-CXP9022427-3.1.0-x-SNAPSHOT/wsdl/CohProvisioningService_schema2.xsd",
+		"/Users/anel/Downloads/BCS_COH-CXP9022427-3.1.0-x-SNAPSHOT/wsdl/CohProvisioningService_schema1.xsd",
+		"/Users/anel/.m2/repository/com/ericsson/coh/omp-release/3.1.0.9/omp-release-3.1.0.9.tar.gz.sha1",
+		"/Users/anel/.m2/repository/com/ericsson/coh/omp-release/3.1.0-x-SNAPSHOT/maven-metadata-nexus-ssp-repo.xml",
+		"/Users/anel/Downloads/CohTrafficService (1).wsdl",
+		"/Users/anel/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/anel/Sites/retinapresentation.md",
+		"/Users/anel/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/anel/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/anel/Dropbox/Sites/blueprint/scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bgcolor",
+			"wrapper",
+			"blue",
+			".island",
+			"avgr",
+			"buildall",
+			"crede",
+			"							<!--localRepositoryDirectory>${project.build.directory}</localRepositoryDirectory -->\n",
+			"coh",
+			"kap",
+			"coh"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

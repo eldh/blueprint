@@ -1,0 +1,23 @@
+@include media-query(palm){
+	body{
+		@include linear-gradient(#190, #150);
+	}
+	.grid{
+		width: 100%;
+		float: left;
+		clear: both;
+	}
+	.gw, .grid-wrapper{
+		margin-left: 0;
+	}
+	.nav--fit li {
+		width: 100%;
+		display: block;
+		float: left;
+		a{
+			width: 100%;
+			display: block;
+			float: left;
+		}
+	}
+}
